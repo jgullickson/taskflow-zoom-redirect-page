@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoom OAuth Confirmation</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container message">
-        <h1>Success!</h1>
-        <h2>Zoom authentication successful.</h2>
-        <p class="text-warning">Please close this page and proceed with your session in the TaskFlow desktop application.</p>
+    <div class="container message-container">
+        <div id='img-container'>
+            <img id='img-success' src="./icon_link.png" alt="zoom and taskflow icons linked">
+        </div>
+        <div class="message">
+            <h1 class='text-primary'>Success!</h1>
+            <h2>Zoom authentication completed.</h2>
+            <p class="text text-muted">Please close this page and proceed with your session in the TaskFlow desktop application.</p>
+        </div>
     </div>
     <script src='oauth.js'></script>
 </body>
