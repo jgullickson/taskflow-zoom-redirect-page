@@ -1,4 +1,5 @@
 let code = window.location.search;
+console.log('udpated')
 
 if (window.interop){
     console.log(code)
